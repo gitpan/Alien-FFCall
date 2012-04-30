@@ -1,0 +1,26 @@
+---
+abstract: 'Build and install libffcall'
+author:
+  - 'David Mertens <dcmertens.perl@gmail.com>'
+build_requires: {}
+configure_requires:
+  Alien::Base: 0
+  Module::Build: 0.39
+dynamic_config: 1
+generated_by: 'Module::Build version 0.3901, CPAN::Meta::Converter version 2.120630'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Alien-FFCall
+provides:
+  Alien::FFCall:
+    file: lib/Alien/FFCall.pm
+    version: 0.01
+requires:
+  Alien::Base: 0
+  File::ShareDir: 1.00
+  perl: v5.8.1
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
